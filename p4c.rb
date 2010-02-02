@@ -34,5 +34,7 @@ $stdin.each_line do |line|
     puts "#{$RED}" + line + "#{$RESET}"
   elsif line =~ IN_R
     puts "#{$GREEN}" + line + "#{$RESET}"
+  else
+    puts line
   end
 end
